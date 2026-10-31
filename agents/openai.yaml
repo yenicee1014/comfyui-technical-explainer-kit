@@ -1,0 +1,4 @@
+interface:
+  display_name: "技术档案图解科普"
+  short_description: "沿用 NASA 参考片的档案拼贴与图解语言，为工程数学选题规划 ComfyUI 制作"
+  default_prompt: "使用 $nasa-archive-explainer，按复古技术档案与动态图解风格，为我的工程或数学选题规划 ComfyUI 制作。"

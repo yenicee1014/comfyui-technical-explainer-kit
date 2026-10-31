@@ -1,0 +1,25 @@
+# macOS and editor metadata
+.DS_Store
+._*
+__MACOSX/
+.idea/
+.vscode/
+
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Generated ComfyUI runtime data; bundled input and verification stay tracked
+/comfyui/output/
+/comfyui/temp/
+/comfyui/user/
+*.log

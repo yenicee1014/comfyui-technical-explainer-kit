@@ -1,0 +1,45 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {"image": "paper.png"},
+    "_meta": {"title": "01 Paper background"}
+  },
+  "2": {
+    "class_type": "RepeatImageBatch",
+    "inputs": {"image": ["1", 0], "amount": 48},
+    "_meta": {"title": "02 Repeat paper for all 48 frames"}
+  },
+  "3": {
+    "class_type": "LoadImage",
+    "inputs": {"image": "projection.webp"},
+    "_meta": {"title": "03 Exact geometry and text frames"}
+  },
+  "4": {
+    "class_type": "InvertMask",
+    "inputs": {"mask": ["3", 1]},
+    "_meta": {"title": "04 Convert transparency mask to opacity mask"}
+  },
+  "5": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": ["2", 0],
+      "source": ["3", 0],
+      "x": 0,
+      "y": 0,
+      "resize_source": false,
+      "mask": ["4", 0]
+    },
+    "_meta": {"title": "05 Composite without changing geometry"}
+  },
+  "6": {
+    "class_type": "SaveWEBM",
+    "inputs": {
+      "images": ["5", 0],
+      "filename_prefix": "technical-archive/composite-check",
+      "codec": "vp9",
+      "fps": 24,
+      "crf": 18
+    },
+    "_meta": {"title": "06 Save model-free compatibility check"}
+  }
+}
