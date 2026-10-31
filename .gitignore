@@ -23,3 +23,11 @@ __pycache__/
 /comfyui/temp/
 /comfyui/user/
 *.log
+
+# Per-example local renders and runtime; published media/evidence remain tracked
+/examples/*/output/
+/examples/*/temp/
+/examples/*/user/
+/examples/*/voice/
+/examples/*/review/concat.txt
+/examples/*/review/semantic-*.jpg

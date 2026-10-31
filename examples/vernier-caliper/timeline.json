@@ -1,0 +1,342 @@
+{
+  "schema": 2,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "duration": 52.083333333333336,
+  "voice": "macOS Tingting, 212 words/minute setting",
+  "alignment": "Measured independent phrase recordings; no word timestamps inferred.",
+  "lines": [
+    {
+      "id": "question",
+      "text": "一格一毫米的尺子，为什么能读出零点一毫米？",
+      "start": 0.5,
+      "anchor": 0.5,
+      "end": 3.9640625,
+      "duration": 3.4640625,
+      "hold": 0.55,
+      "phrases": [
+        {
+          "text": "一格一毫米的尺子",
+          "start": 0.0,
+          "end": 1.341875,
+          "source_duration": 1.341859,
+          "trim_start": 0
+        },
+        {
+          "text": "为什么能读出零点一毫米",
+          "start": 1.441875,
+          "end": 3.3640625,
+          "source_duration": 1.922177,
+          "trim_start": 0
+        }
+      ]
+    },
+    {
+      "id": "parts",
+      "text": "游标卡尺的秘密，就在这排会滑动的刻度里。",
+      "start": 4.5140625,
+      "anchor": 4.5140625,
+      "end": 8.06125,
+      "duration": 3.5471875,
+      "hold": 0.55,
+      "phrases": [
+        {
+          "text": "游标卡尺的秘密",
+          "start": 0.0,
+          "end": 1.2839583333333333,
+          "source_duration": 1.283946,
+          "trim_start": 0
+        },
+        {
+          "text": "就在这排会滑动的刻度里",
+          "start": 1.3839583333333334,
+          "end": 3.4471875,
+          "source_duration": 2.06322,
+          "trim_start": 0
+        }
+      ]
+    },
+    {
+      "id": "nine",
+      "text": "以十分度游标为例，把主尺九毫米，分成十个游标格。",
+      "start": 8.61125,
+      "anchor": 8.61125,
+      "end": 12.903166666666667,
+      "duration": 4.291916666666666,
+      "hold": 0.75,
+      "phrases": [
+        {
+          "text": "以十分度游标为例",
+          "start": 0.0,
+          "end": 1.4116666666666666,
+          "source_duration": 1.411655,
+          "trim_start": 0
+        },
+        {
+          "text": "把主尺九毫米",
+          "start": 1.5116666666666667,
+          "end": 2.7133958333333332,
+          "source_duration": 1.201723,
+          "trim_start": 0
+        },
+        {
+          "text": "分成十个游标格",
+          "start": 2.8133958333333333,
+          "end": 4.191916666666667,
+          "source_duration": 1.378503,
+          "trim_start": 0
+        }
+      ]
+    },
+    {
+      "id": "difference",
+      "text": "这样，游标每格零点九毫米，比主尺少零点一。",
+      "start": 13.653166666666667,
+      "anchor": 13.653166666666667,
+      "end": 17.497145833333335,
+      "duration": 3.8439791666666667,
+      "hold": 0.65,
+      "phrases": [
+        {
+          "text": "这样",
+          "start": 0.0,
+          "end": 0.3732916666666667,
+          "source_duration": 0.373288,
+          "trim_start": 0
+        },
+        {
+          "text": "游标每格零点九毫米",
+          "start": 0.47329166666666667,
+          "end": 2.256479166666667,
+          "source_duration": 1.783175,
+          "trim_start": 0
+        },
+        {
+          "text": "比主尺少零点一",
+          "start": 2.3564791666666665,
+          "end": 3.7439791666666666,
+          "source_duration": 1.387483,
+          "trim_start": 0
+        }
+      ]
+    },
+    {
+      "id": "one",
+      "text": "从零线对齐开始，向右移动零点一毫米，第一条线就对齐。",
+      "start": 18.147145833333333,
+      "anchor": 18.147145833333333,
+      "end": 23.174208333333333,
+      "duration": 5.0270625,
+      "hold": 0.65,
+      "phrases": [
+        {
+          "text": "从零线对齐开始",
+          "start": 0.0,
+          "end": 1.5653541666666666,
+          "source_duration": 1.565351,
+          "trim_start": 0
+        },
+        {
+          "text": "向右移动零点一毫米",
+          "start": 1.6653541666666667,
+          "end": 3.3661458333333334,
+          "source_duration": 1.700771,
+          "trim_start": 0
+        },
+        {
+          "text": "第一条线就对齐",
+          "start": 3.4661458333333335,
+          "end": 4.9270625,
+          "source_duration": 1.460907,
+          "trim_start": 0
+        }
+      ]
+    },
+    {
+      "id": "three",
+      "text": "移动零点三毫米，就轮到第三条线。",
+      "start": 23.824208333333335,
+      "anchor": 23.824208333333335,
+      "end": 26.848895833333334,
+      "duration": 3.0246875,
+      "hold": 0.75,
+      "phrases": [
+        {
+          "text": "移动零点三毫米",
+          "start": 0.0,
+          "end": 1.3303541666666667,
+          "source_duration": 1.33034,
+          "trim_start": 0
+        },
+        {
+          "text": "就轮到第三条线",
+          "start": 1.4303541666666666,
+          "end": 2.9246875,
+          "source_duration": 1.494331,
+          "trim_start": 0
+        }
+      ]
+    },
+    {
+      "id": "main",
+      "text": "现在读一次数。游标零线，已经越过主尺十二毫米。",
+      "start": 27.598895833333334,
+      "anchor": 27.598895833333334,
+      "end": 31.819395833333335,
+      "duration": 4.2205,
+      "hold": 0.65,
+      "phrases": [
+        {
+          "text": "现在读一次数",
+          "start": 0.0,
+          "end": 1.1783333333333332,
+          "source_duration": 1.178322,
+          "trim_start": 0
+        },
+        {
+          "text": "游标零线",
+          "start": 1.2783333333333333,
+          "end": 2.1327708333333333,
+          "source_duration": 0.854422,
+          "trim_start": 0
+        },
+        {
+          "text": "已经越过主尺十二毫米",
+          "start": 2.2327708333333334,
+          "end": 4.1205,
+          "source_duration": 1.88771,
+          "trim_start": 0
+        }
+      ]
+    },
+    {
+      "id": "match",
+      "text": "再找对齐线，是第三条。",
+      "start": 32.46939583333334,
+      "anchor": 32.46939583333334,
+      "end": 34.64995833333334,
+      "duration": 2.1805625,
+      "hold": 0.8,
+      "phrases": [
+        {
+          "text": "再找对齐线",
+          "start": 0.0,
+          "end": 1.0582916666666666,
+          "source_duration": 1.058277,
+          "trim_start": 0
+        },
+        {
+          "text": "是第三条",
+          "start": 1.1582916666666667,
+          "end": 2.0805625,
+          "source_duration": 0.922268,
+          "trim_start": 0
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "text": "所以读数是，十二，加三乘零点一，等于十二点三毫米。",
+      "start": 35.449958333333335,
+      "anchor": 35.449958333333335,
+      "end": 40.047020833333335,
+      "duration": 4.5970625,
+      "hold": 0.95,
+      "phrases": [
+        {
+          "text": "所以读数是",
+          "start": 0.0,
+          "end": 0.9693541666666666,
+          "source_duration": 0.969342,
+          "trim_start": 0
+        },
+        {
+          "text": "十二",
+          "start": 1.0693541666666666,
+          "end": 1.515625,
+          "source_duration": 0.446259,
+          "trim_start": 0
+        },
+        {
+          "text": "加三乘零点一",
+          "start": 1.615625,
+          "end": 2.8777708333333334,
+          "source_duration": 1.262132,
+          "trim_start": 0
+        },
+        {
+          "text": "等于十二点三毫米",
+          "start": 2.9777708333333335,
+          "end": 4.4970625,
+          "source_duration": 1.519274,
+          "trim_start": 0
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "text": "两排刻度的差，把细小距离，变成了看得见的对齐。",
+      "start": 40.99702083333334,
+      "anchor": 40.99702083333334,
+      "end": 45.04293750000001,
+      "duration": 4.045916666666667,
+      "hold": 0.8,
+      "phrases": [
+        {
+          "text": "两排刻度的差",
+          "start": 0.0,
+          "end": 1.1217291666666667,
+          "source_duration": 1.121723,
+          "trim_start": 0
+        },
+        {
+          "text": "把细小距离",
+          "start": 1.2217291666666668,
+          "end": 2.2493125000000003,
+          "source_duration": 1.027574,
+          "trim_start": 0
+        },
+        {
+          "text": "变成了看得见的对齐",
+          "start": 2.3493125,
+          "end": 3.9459166666666663,
+          "source_duration": 1.596599,
+          "trim_start": 0
+        }
+      ]
+    },
+    {
+      "id": "limits",
+      "text": "这是零点一毫米的分度值。实际测量，还要检查零位和接触。",
+      "start": 45.842937500000005,
+      "anchor": 45.842937500000005,
+      "end": 50.817354166666675,
+      "duration": 4.9744166666666665,
+      "hold": 1.25,
+      "phrases": [
+        {
+          "text": "这是零点一毫米的分度值",
+          "start": 0.0,
+          "end": 2.0103125,
+          "source_duration": 2.010295,
+          "trim_start": 0
+        },
+        {
+          "text": "实际测量",
+          "start": 2.1103125,
+          "end": 2.9977708333333335,
+          "source_duration": 0.887438,
+          "trim_start": 0
+        },
+        {
+          "text": "还要检查零位和接触",
+          "start": 3.097770833333333,
+          "end": 4.874416666666667,
+          "source_duration": 1.776644,
+          "trim_start": 0
+        }
+      ]
+    }
+  ]
+}

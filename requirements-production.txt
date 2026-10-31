@@ -1,0 +1,4 @@
+# Optional: rebuild or verify the caliper example. ComfyUI has its own environment.
+Pillow==12.3.0
+av==18.1.0
+numpy==2.5.2

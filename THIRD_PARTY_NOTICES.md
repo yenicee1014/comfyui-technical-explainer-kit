@@ -18,6 +18,8 @@
 
 `comfyui/verification/comfyui-canvas.jpg` 是本项目实际操作 ComfyUI 时取得的截图，用于说明节点连接及运行结果；软件名称与界面归属相应权利人。
 
+`examples/vernier-caliper/review/comfyui-compositing.jpg` 与 `comfyui-full-film.jpg` 同样来自实际 ComfyUI 操作。该案例的配音使用 macOS Tingting 合成声，未复制参考片或作者音轨；其他系统重建声音时需使用各自实际可用、许可合适的声音来源。
+
 ## 项目其他内容
 
 本仓库尚未为其余文档、脚本、工作流与演示素材指定统一的开源许可证。字体许可不自动覆盖项目其他内容；项目复用授权由维护者另行说明。

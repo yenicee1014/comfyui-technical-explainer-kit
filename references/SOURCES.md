@@ -32,6 +32,14 @@
 
 `diagram-example.png` 是简化机制图解，不是原片截图、历史设备照片或已完成有声验收的成片案例。ComfyUI 演示只验证数学图层合成，不代表完整参考风格已由生成模型复现。
 
+## 新增的游标卡尺案例
+
+`examples/vernier-caliper/` 中的工具示意、刻度动画、背景和文字由本项目脚本计算绘制。中文配音由 macOS Tingting 合成。视频先经 ComfyUI 分段合成与编码，再由 FFmpeg 拼接、ComfyUI 保存。两张 ComfyUI 截图是实际运行界面，分镜检查图来自实际视频。
+
+该案例采用十分度直接游标的理想模型，不将工具示意当作产品照片。测量关系依据见[案例资料表](../examples/vernier-caliper/BRIEF.md)，包括 Mitutoyo 的 Quick Guide to Measurement 与 Caliper Educational Kit。原始文献未打包进仓库。
+
+随包携带已有透明动画、声音及已拼接输入，便于先在画布运行。脚本整理为仓库相对字体路径及 UTF-8 读写；仍明确区分跨平台使用现成输入，与仅 macOS 支持的 Tingting 声音重建。不携带原安装的用户设置、数据库、缓存或全局 ComfyUI 配置。
+
 ## 字体
 
 | 字体文件 | 对应许可 |

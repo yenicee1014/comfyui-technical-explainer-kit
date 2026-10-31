@@ -1,0 +1,386 @@
+[
+  {
+    "text": "FIELD NOTES / 04",
+    "size": 17,
+    "box": [
+      106,
+      38,
+      266,
+      54
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "读一次数：从整毫米开始",
+    "size": 41,
+    "box": [
+      58,
+      77,
+      509,
+      118
+    ],
+    "font": "NotoSansSC-Bold.otf",
+    "inside": true
+  },
+  {
+    "text": "假设零位正确 / 示意读数",
+    "size": 23,
+    "box": [
+      58,
+      132,
+      307,
+      156
+    ],
+    "font": "NotoSansSC-Regular.otf",
+    "inside": true
+  },
+  {
+    "text": "12",
+    "size": 22,
+    "box": [
+      137,
+      255,
+      163,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "13",
+    "size": 22,
+    "box": [
+      216,
+      255,
+      242,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "14",
+    "size": 22,
+    "box": [
+      295,
+      255,
+      321,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "15",
+    "size": 22,
+    "box": [
+      374,
+      255,
+      400,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "16",
+    "size": 22,
+    "box": [
+      453,
+      255,
+      479,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "17",
+    "size": 22,
+    "box": [
+      532,
+      255,
+      558,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "18",
+    "size": 22,
+    "box": [
+      611,
+      255,
+      637,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "19",
+    "size": 22,
+    "box": [
+      690,
+      255,
+      716,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "20",
+    "size": 22,
+    "box": [
+      769,
+      255,
+      795,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "21",
+    "size": 22,
+    "box": [
+      848,
+      255,
+      874,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "22",
+    "size": 22,
+    "box": [
+      927,
+      255,
+      953,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "23",
+    "size": 22,
+    "box": [
+      1006,
+      255,
+      1032,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "24",
+    "size": 22,
+    "box": [
+      1085,
+      255,
+      1111,
+      270
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "0",
+    "size": 23,
+    "box": [
+      166.7,
+      401,
+      180.7,
+      417
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "1",
+    "size": 23,
+    "box": [
+      237.8,
+      401,
+      251.8,
+      417
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "2",
+    "size": 23,
+    "box": [
+      308.9,
+      401,
+      322.9,
+      417
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "3",
+    "size": 23,
+    "box": [
+      380.0,
+      401,
+      394.0,
+      417
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "4",
+    "size": 23,
+    "box": [
+      451.1,
+      401,
+      465.1,
+      417
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "5",
+    "size": 23,
+    "box": [
+      522.2,
+      401,
+      536.2,
+      417
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "6",
+    "size": 23,
+    "box": [
+      593.3,
+      401,
+      607.3,
+      417
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "7",
+    "size": 23,
+    "box": [
+      664.4,
+      401,
+      678.4,
+      417
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "8",
+    "size": 23,
+    "box": [
+      735.5,
+      401,
+      749.5,
+      417
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "9",
+    "size": 23,
+    "box": [
+      806.5999999999999,
+      401,
+      820.5999999999999,
+      417
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "10",
+    "size": 23,
+    "box": [
+      870.7,
+      401,
+      898.7,
+      417
+    ],
+    "font": "SpaceMono-Regular.ttf",
+    "inside": true
+  },
+  {
+    "text": "主尺",
+    "size": 21,
+    "box": [
+      67,
+      278,
+      109,
+      299
+    ],
+    "font": "NotoSansSC-Regular.otf",
+    "inside": true
+  },
+  {
+    "text": "游标",
+    "size": 21,
+    "box": [
+      67,
+      408,
+      109,
+      429
+    ],
+    "font": "NotoSansSC-Regular.otf",
+    "inside": true
+  },
+  {
+    "text": "再找对齐线，是第三条。",
+    "size": 29,
+    "box": [
+      492.0,
+      649,
+      811.0,
+      679
+    ],
+    "font": "NotoSansSC-Regular.otf",
+    "inside": true
+  },
+  {
+    "text": "第 3 条",
+    "size": 34,
+    "box": [
+      746,
+      467,
+      850,
+      501
+    ],
+    "font": "NotoSansSC-Bold.otf",
+    "inside": true
+  },
+  {
+    "text": "小数部分：3 × 0.1 = 0.3 mm",
+    "size": 33,
+    "box": [
+      168,
+      564,
+      601,
+      597
+    ],
+    "font": "NotoSansSC-Bold.otf",
+    "inside": true
+  }
+]

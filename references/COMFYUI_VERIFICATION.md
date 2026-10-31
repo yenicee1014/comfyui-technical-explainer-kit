@@ -4,9 +4,26 @@
 
 ## 测试结论
 
-随包工作流已实际运行：**预先计算的精确数学动画图层，可通过本次 ComfyUI 核心节点与底图合成并导出视频。**
+随包工作流已实际运行：**预先计算的精确动画图层，可通过本次 ComfyUI 核心节点与底图合成并导出视频。** 本页原有章节记录 2 秒无声数学验证；新增带声完整案例见下方。
 
-API 队列执行成功；画布 JSON 也在实际前端载入并点击 Run，使用已有结果缓存。未运行文生图或图生视频模型，也未验证整片的旁白、字幕与音画配合。
+原无声验证的 API 队列执行成功；画布 JSON 也在实际前端载入并点击 Run，使用已有结果缓存。该项验证未运行文生图或图生视频模型，也不涉及整片旁白与字幕。
+
+## 新增：游标卡尺带声案例
+
+[案例文件与操作教程](../examples/vernier-caliper/README.md)提供 52.083333 秒、1280×720、24fps、1250 帧的中文配音预览。制作使用相同的核心节点环境，新增 `LoadAudio`、`CreateVideo`、`SaveVideo`，分 26 个短批次执行。可见前端也实际载入八节点工作流并点击 Run，完成未命中缓存的样段合成。
+
+精确图解与文字由 Pillow 绘制，配音由 macOS Tingting 生成；FFmpeg 按帧拼接分段并使用统一录音，再由 ComfyUI `LoadVideo → SaveVideo` 保存整片。未加载生成模型。
+
+实际输出已完整解码，检查音轨存在、两段滑动中的 226 帧零线标记、196 项文字画幅边界、刻度计算、字形覆盖，并提取关键词附近连续帧。完整正常速度人工有声语义验收未记为通过；配音为合成试听声，无配乐。
+
+- [完整预览](../examples/vernier-caliper/vernier-caliper.mp4)
+- [八节点实际截图](../examples/vernier-caliper/review/comfyui-compositing.jpg)
+- [整片导出实际截图](../examples/vernier-caliper/review/comfyui-full-film.jpg)
+- [原前端执行记录](../examples/vernier-caliper/review/ui-execution.json)
+- [最终输出执行记录](../examples/vernier-caliper/review/final-execution.json)
+- [检查报告](../examples/vernier-caliper/review/verification.json)
+
+以下保留原 2 秒无声验证记录；其未覆盖的范围不代表新增案例也没有做过。
 
 ## 环境
 
@@ -80,7 +97,7 @@ LoadImage(projection.webp) → IMAGE ──────────────�
 - 任意文生图或图生视频模型的推理、权重、显存及结构稳定性。
 - Wan2.2 等模型在本风格下的画面质量与动作准确性。
 - 其他电脑、ComfyUI 版本、自定义节点和模型组合。
-- 长片的录音、字幕、镜头拼接、配乐与混音全流程。
+- 任意新主题的全流程；新增卡尺已覆盖其特定录音、字幕、拼接和带声导出，但没有配乐与复杂混音。
 - 完整影片按正常速度进行的人工有声语义验收。
 
 演示没有配音或字幕时间轴，也没有完整知识叙事；静态帧图和位置检查不能代替有声样片验收。正式工程需先按自己的资料、模型、录音和图层验证代表性样段。

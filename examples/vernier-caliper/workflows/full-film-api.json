@@ -1,0 +1,20 @@
+{
+  "1": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "vernier-caliper-assembled.mp4"
+    }
+  },
+  "2": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "1",
+        0
+      ],
+      "filename_prefix": "vernier-caliper-final",
+      "format": "mp4",
+      "format.codec": "auto"
+    }
+  }
+}
