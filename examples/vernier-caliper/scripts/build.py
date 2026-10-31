@@ -358,7 +358,7 @@ def scene_layer(kind, local_time, line_duration, caption, phrases=None):
     return layer
 
 
-def audio():
+def audio(regenerate=False):
     voice = ROOT / "voice"
     cursor = 0.5
     lines = []
@@ -369,7 +369,7 @@ def audio():
                 f for f in re.split(r"[，。？！]", content) if f):
             raw = voice / f"{key}-phrase-{n+1}.aiff"
             wav_path = voice / f"{key}-phrase-{n+1}.wav"
-            if not raw.exists():
+            if regenerate or not raw.exists():
                 run(["say", "-v", "Tingting", "-r", "212", "-o", str(raw),
                      fragment + "。"])
             source_duration = duration(raw)
@@ -513,6 +513,6 @@ if __name__ == "__main__":
                 "Narration generation uses macOS say/Tingting. Keep the bundled "
                 "timeline.json and input/narration.wav to rebuild visuals on other systems."
             )
-        measured = audio()
+        measured = audio(regenerate=args.regenerate_audio)
     if not args.audio_only:
         build_inputs(measured, args.scene)
