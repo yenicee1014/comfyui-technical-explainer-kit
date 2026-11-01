@@ -1,0 +1,61 @@
+{
+  "source": "../../vernier-caliper.mp4",
+  "fps": 24,
+  "frames": [
+    {
+      "file": "01-question.jpg",
+      "frame": 100,
+      "seconds": 4.166666666666667
+    },
+    {
+      "file": "02-parts.jpg",
+      "frame": 198,
+      "seconds": 8.25
+    },
+    {
+      "file": "03-nine.jpg",
+      "frame": 314,
+      "seconds": 13.083333333333334
+    },
+    {
+      "file": "04-difference.jpg",
+      "frame": 425,
+      "seconds": 17.708333333333332
+    },
+    {
+      "file": "05-one.jpg",
+      "frame": 561,
+      "seconds": 23.375
+    },
+    {
+      "file": "06-three.jpg",
+      "frame": 649,
+      "seconds": 27.041666666666668
+    },
+    {
+      "file": "07-main.jpg",
+      "frame": 768,
+      "seconds": 32.0
+    },
+    {
+      "file": "08-match.jpg",
+      "frame": 836,
+      "seconds": 34.833333333333336
+    },
+    {
+      "file": "09-result.jpg",
+      "frame": 966,
+      "seconds": 40.25
+    },
+    {
+      "file": "10-summary.jpg",
+      "frame": 1086,
+      "seconds": 45.25
+    },
+    {
+      "file": "11-limits.jpg",
+      "frame": 1224,
+      "seconds": 51.0
+    }
+  ]
+}

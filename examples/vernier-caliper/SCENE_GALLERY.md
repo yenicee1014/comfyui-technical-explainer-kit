@@ -1,6 +1,14 @@
 # 游标卡尺案例画廊
 
-这些图片来自实际导出的 52 秒视频，每张图对应一个解释节拍。点击图片可以查看原图；点击 JSON 可以打开对应的 ComfyUI 画布工作流。
+这些图片从随包的实际 52 秒 MP4 提取，每张图对应一个解释节拍。[帧号与时间点](review/scenes/frames.json)可用于核对；[生成脚本](scripts/build_docs_media.py)可重新生成本页素材。点击图片可以查看原图；点击 JSON 可以打开对应的 ComfyUI 画布工作流。
+
+![实际成片的游标移动过程](review/motion-preview.gif)
+
+动图无声音，完整配音见[视频](vernier-caliper.mp4)。先跑一个片段的输入与结果如下：
+
+![输入与输出对照](review/input-output-guide.jpg)
+
+第一次运行建议从[2.5 秒带声片段教程](../../README.md#3-先跑通一个带声音的片段)开始，下载[八节点 JSON](workflows/05-one-02.json)或[含工作流的原始 PNG](review/starter-workflow.png)，并准备教程列出的三个输入文件。
 
 ## 1. 从问题进入
 

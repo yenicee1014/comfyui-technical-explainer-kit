@@ -8,7 +8,26 @@
 
 [看完整视频](examples/vernier-caliper/vernier-caliper.mp4) · [看案例画廊](examples/vernier-caliper/SCENE_GALLERY.md) · [先跑一个片段](#3-先跑通一个带声音的片段) · [制作自己的视频](#5-开始制作你的第一个新主题) · [推荐选题](#10-推荐选题)
 
+![游标移动并让第一条、第三条刻度依次对齐的实际视频片段](examples/vernier-caliper/review/motion-preview.gif)
+
+上方是实际成片的静音动图；完整 MP4 带中文配音。[播放或下载完整视频](examples/vernier-caliper/vernier-caliper.mp4)。
+
+### 选择你的第一个练习
+
+| 练习 | 结果 | 直接打开 | 输入与依赖 |
+| --- | --- | --- | --- |
+| A. 游标滑动，建议从这里开始 | 2.5秒带声MP4 | [八节点JSON](examples/vernier-caliper/workflows/05-one-02.json) / [含工作流的PNG](examples/vernier-caliper/review/starter-workflow.png) | 3个输入文件、核心节点，见第3节 |
+| B. 导出已有完整影片 | 52秒带声MP4 | [整片JSON](examples/vernier-caliper/workflows/full-film.json) | 已拼接MP4、核心节点，见第4节 |
+| C. 更小的数学合成验证 | 2秒无声WEBM | [六节点JSON](comfyui/precision-composite.json) | 2个输入文件，见[步骤](references/COMFYUI_GUIDE.md#直接运行随包的验证) |
+
+PNG 中嵌有练习 A 的节点结构，不包含三个输入文件。下载**原始 PNG**后可以拖入 ComfyUI 恢复画布；网页压缩或重新截图可能丢失元数据，初次运行优先使用 JSON。
+
+<details>
+<summary>展开看整片10个关键画面</summary>
+
 ![游标卡尺预览：从两排刻度讲到12.3毫米的读数](examples/vernier-caliper/review/contact-sheet.jpg)
+
+</details>
 
 ## 1. 先知道你要做什么
 
@@ -110,6 +129,8 @@ comfyui-technical-explainer-kit/
 | `05-one-02.webp` | 60 帧透明动画，含刻度、标注、标题和字幕 | 前景 `LoadImage` |
 | `05-one-02.wav` | 对应这 2.5 秒的旁白 | `LoadAudio` |
 
+![背景、透明动画与实际合成结果对照](examples/vernier-caliper/review/input-output-guide.jpg)
+
 把它们复制到 ComfyUI **当前使用的输入目录**。便携版通常是包内 `ComfyUI/input/`；其他安装方式以你的配置为准。也可以使用节点提供的上传控件逐个选择文件。
 
 直接放在输入目录根层最容易照做。若使用子文件夹或上传后文件名变化，下一步在节点里重新选择实际文件。`webp` 要保留原始动画，不要在图片软件中另存成单张图片。
@@ -117,6 +138,8 @@ comfyui-technical-explainer-kit/
 ### 第二步：导入画布
 
 将 [05-one-02.json](examples/vernier-caliper/workflows/05-one-02.json) 从电脑拖入 ComfyUI 画布。
+
+若从 GitHub 单独下载 JSON，打开文件页后选择 **Download raw file / 下载原始文件**，不要将整个 GitHub 网页另存为 `.json`。
 
 选择文件名**不带 `-api`** 的版本。`-api.json` 给程序调用，不是本教程使用的画布入口。也可使用界面的打开工作流功能加载 JSON。
 
