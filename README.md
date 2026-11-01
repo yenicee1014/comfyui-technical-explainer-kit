@@ -1,12 +1,14 @@
 # ComfyUI Technical Explainer Kit
 
+[![工作流：ComfyUI](https://img.shields.io/badge/workflow-ComfyUI-2d6a4f?style=flat-square)](#3-先跑通一个带声音的片段) [![节点：核心节点](https://img.shields.io/badge/nodes-%E6%A0%B8%E5%BF%83%E8%8A%82%E7%82%B9-2374ab?style=flat-square)](#comfyui-在这套制作中做什么) [![教程：简体中文](https://img.shields.io/badge/language-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-b23a48?style=flat-square)](#2-准备-comfyui-和仓库) [![主题：工程与数学](https://img.shields.io/badge/topics-%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%95%B0%E5%AD%A6-946b16?style=flat-square)](#10-推荐选题) [![案例：52秒有声视频](https://img.shields.io/badge/example-52%E7%A7%92%E6%9C%89%E5%A3%B0%E8%A7%86%E9%A2%91-555555?style=flat-square)](examples/vernier-caliper/vernier-caliper.mp4)
+
+[看成片](examples/vernier-caliper/vernier-caliper.mp4) · [快速开始](#3-先跑通一个带声音的片段) · [下载工作流](#选择你的第一个练习) · [案例画廊](examples/vernier-caliper/SCENE_GALLERY.md) · [制作新主题](#5-开始制作你的第一个新主题) · [推荐选题](#10-推荐选题) · [常见问题](#7-第一次运行常见问题)
+
 **从零制作“复古技术档案 × 动态图解”科普视频。适合工程、数学、物理机制和计算机原理。**
 
 这套风格像在桌面上拆读一本技术手册：纸面、深色桌面、照片或实物示意、工程网格、少量红色标注。讲到“移动”，物体就移动；讲到“差多少”，两者就按相同比例比较；讲到“为什么”，画面就把关系演出来。
 
 本仓库已经包含一部**约 52 秒、中文配音、1280×720、24fps** 的游标卡尺预览，以及制作它的输入素材、ComfyUI 工作流、时间轴和脚本。第一次使用可以直接跑示例，不必先找模型或写代码。
-
-[看完整视频](examples/vernier-caliper/vernier-caliper.mp4) · [看案例画廊](examples/vernier-caliper/SCENE_GALLERY.md) · [先跑一个片段](#3-先跑通一个带声音的片段) · [制作自己的视频](#5-开始制作你的第一个新主题) · [推荐选题](#10-推荐选题)
 
 ![游标移动并让第一条、第三条刻度依次对齐的实际视频片段](examples/vernier-caliper/review/motion-preview.gif)
 
