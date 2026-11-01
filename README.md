@@ -6,7 +6,7 @@
 
 本仓库已经包含一部**约 52 秒、中文配音、1280×720、24fps** 的游标卡尺预览，以及制作它的输入素材、ComfyUI 工作流、时间轴和脚本。第一次使用可以直接跑示例，不必先找模型或写代码。
 
-[看完整视频](examples/vernier-caliper/vernier-caliper.mp4) · [先跑一个片段](#3-先跑通一个带声音的片段) · [制作自己的视频](#5-开始制作你的第一个新主题) · [推荐选题](#10-推荐选题)
+[看完整视频](examples/vernier-caliper/vernier-caliper.mp4) · [看案例画廊](examples/vernier-caliper/SCENE_GALLERY.md) · [先跑一个片段](#3-先跑通一个带声音的片段) · [制作自己的视频](#5-开始制作你的第一个新主题) · [推荐选题](#10-推荐选题)
 
 ![游标卡尺预览：从两排刻度讲到12.3毫米的读数](examples/vernier-caliper/review/contact-sheet.jpg)
 
@@ -159,7 +159,7 @@ LoadAudio(旁白) ────────────────────�
 
 ## 4. 看懂完整视频怎样形成
 
-先播放 [52 秒预览](examples/vernier-caliper/vernier-caliper.mp4)，再对照它的解释顺序：
+先播放 [52 秒预览](examples/vernier-caliper/vernier-caliper.mp4)，也可以打开[逐场景画廊](examples/vernier-caliper/SCENE_GALLERY.md)逐张查看，再对照它的解释顺序：
 
 | 顺序 | 旁白要讲什么 | 画面完成什么动作 |
 | --- | --- | --- |
@@ -340,6 +340,7 @@ LoadAudio(旁白) ────────────────────�
 | 重新生成旧数学验证输入 | `comfyui/make_demo_inputs.py` 与 `requirements-demo.txt` |
 | 重新合成卡尺完整案例 | [批量操作说明](examples/vernier-caliper/README.md#可选批量重新合成-26-段) |
 | 原片与素材来源 | [SOURCES](references/SOURCES.md)、[卡尺资料依据](examples/vernier-caliper/BRIEF.md) |
+| 为什么这样组织仓库 | [外部教程借鉴记录](references/REPOSITORY_REVIEW.md) |
 
 视觉参考：路北路陈《设计风格小课 04》，Bilibili `BV1Tsps6kE6z`。仓库提供自制图解和实际 ComfyUI 截图，不附带原片视频、音轨或截帧。配色与字体为团队复现选型，不是原作者工程参数，也不是 NASA 官方模板。
 

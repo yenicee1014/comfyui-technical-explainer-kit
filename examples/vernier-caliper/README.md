@@ -6,6 +6,8 @@
 
 ![实际成片抽帧](review/contact-sheet.jpg)
 
+想按镜头学习这部片，打开[逐场景画廊](SCENE_GALLERY.md)。每个场景都有成片截图、解释目标和对应的 ComfyUI JSON。
+
 ## 先运行一个会动的片段
 
 1. 启动你的 ComfyUI。
